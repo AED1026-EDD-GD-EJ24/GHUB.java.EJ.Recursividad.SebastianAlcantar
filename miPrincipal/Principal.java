@@ -13,6 +13,16 @@ public class Principal {
             System.out.println("*************************");
             System.out.println("1) LADRILLOS");
             System.out.println("2) Factorial");
+            System.out.println("3) Números naturales");
+            System.out.println("4) Suma digitos");
+            System.out.println("5) Recursividad indirecta");
+            System.out.println("6) Máximo común divisor");
+            System.out.println("7) Búsqueda binaria");
+            System.out.println("8) Ordenamiento por seleccion");
+            System.out.println("9) Torres de Hanoi");
+            System.out.println("10) Serie de Fibonacci");
+            System.out.println("11) Performance serie de Fibonacci");
+            System.out.println("12) Ordenamiento por mezcla");
             System.out.println("            ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -24,6 +34,29 @@ public class Principal {
                break;   
             case 2:
                 AppFactorial.menu();
+                break;
+            case 3:
+                AppNaturales.menu();
+                break;
+            case 4:
+                AppSumaDigitos.menu();
+                break;
+            case 5:
+
+            case 6:
+
+            case 7:
+
+            case 8:
+
+            case 9:
+
+            case 10:
+
+            case 11:
+
+            case 12:
+                
             case 0:
                System.out.println("ADIOS!");
                consola.close();
