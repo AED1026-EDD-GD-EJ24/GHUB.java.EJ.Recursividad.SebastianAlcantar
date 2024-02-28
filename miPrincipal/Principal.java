@@ -42,21 +42,29 @@ public class Principal {
                 AppSumaDigitos.menu();
                 break;
             case 5:
-
+                AppAlfabeto.menu();
+                break;
             case 6:
-
+                AppMCD.menu();
+                break;
             case 7:
 
+                break;
             case 8:
 
+                break;
             case 9:
 
+                break;
             case 10:
 
+                break;
             case 11:
 
+                break;
             case 12:
                 
+                break;
             case 0:
                System.out.println("ADIOS!");
                consola.close();
